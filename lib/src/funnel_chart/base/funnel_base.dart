@@ -362,7 +362,7 @@ class _SfFunnelChartState extends State<SfFunnelChart>
 
   @override
   Widget build(BuildContext context) {
-    SyncfusionLicense.validateLicense(context);
+    // SyncfusionLicense.validateLicense(context);
     final ThemeData theme = Theme.of(context);
     widget._chartTheme.initializeChartTheme(theme);
     widget._chartState = this;

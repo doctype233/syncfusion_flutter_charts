@@ -991,7 +991,7 @@ class _SfCartesianChartState extends State<SfCartesianChart>
 
   @override
   Widget build(BuildContext context) {
-    SyncfusionLicense.validateLicense(context);
+    // SyncfusionLicense.validateLicense(context);
     widget._chartState = this;
     final ThemeData theme = Theme.of(context);
     widget._chartTheme.initializeChartTheme(theme);
